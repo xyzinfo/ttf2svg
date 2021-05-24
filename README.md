@@ -5,7 +5,10 @@
 
 ### Examples
   `ttf2svg kaiu.ttf 99AC > horse-traditional.svg` \
-  `ttf2svg simsun.ttc 9a6c > horse-simplified.svg`  
+  `ttf2svg simsun.ttc 9a6c > horse-simplified.svg`
+ 
+ To get a codepoint of a character, use \
+ `printf '%x\n' "'马'"`
 
 ### To Compile
 For Debian 9: \
